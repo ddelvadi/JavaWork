@@ -1,4 +1,6 @@
 // Demonstrate File methods
+// File object is used to obtain or manipulate any information associated with 
+// computer file
 import java.io.File;
 
 public class FileDemo {
