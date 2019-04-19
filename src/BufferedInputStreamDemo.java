@@ -62,6 +62,5 @@ public class BufferedInputStreamDemo {
 		} catch(IOException e) {
 			
 		}
-		System.out.println("\n" + count);
 	}
 }
