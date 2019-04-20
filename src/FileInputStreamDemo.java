@@ -10,7 +10,7 @@ public class FileInputStreamDemo {
 		int size;
 		// Using try-with-resources that closes file object automatically 
 		try ( FileInputStream f = 
-				new FileInputStream("/Users/dipendelvadiya/Desktop/Java/Input-Output_Java.io/src/FileInputStreamDemo.java") ) {
+				new FileInputStream("/FileInputStreamDemo.java") ) {
 			System.out.println("Total available bytes: " +
 								(size = f.available()));
 			// Randomly selecting some number to show number of bytes
