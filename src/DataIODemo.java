@@ -4,7 +4,7 @@
  */
 import java.io.*;
 
-public interface DataIODemo {
+public class DataIODemo {
 	public static void main(String args[]) {
 		// First, write the data.
 	    try ( DataOutputStream dout =
