@@ -8,7 +8,7 @@ import java.io.*;
 public class BufferedInputStreamDemo {
 	public static void main(String args[]) {
 		String s = "This is a &copy; copyright symbol " +
-					"but this is &copy not";
+					"but this is &copy not ";
 		
 		//Copyright reference begins with & and ends with ; with no space
 		byte buf[] = s.getBytes();
