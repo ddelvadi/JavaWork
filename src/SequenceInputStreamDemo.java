@@ -41,8 +41,7 @@ public class SequenceInputStreamDemo {
 		
 		InputStreamEnumerator ise = new InputStreamEnumerator(files);
 		
-		try {
-			InputStream input = new SequenceInputStream(ise);
+		try(InputStream input = new SequenceInputStream(ise)) {
 			while((c = input.read()) != -1) {
 				System.out.print((char) c);
 			} 
